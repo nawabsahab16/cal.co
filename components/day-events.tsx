@@ -10,6 +10,7 @@ interface DayEventsProps {
 export default function DayEvents({ date }: DayEventsProps) {
   if (!date) return null;
 
+  // TODO: Fetch and display actual events for the selected date
   const mockEvents = [
     {
       id: 1,

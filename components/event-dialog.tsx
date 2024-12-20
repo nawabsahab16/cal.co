@@ -21,6 +21,7 @@ export default function EventDialog({ open, onOpenChange, selectedDate }: EventD
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    // TODO: Implement event creation logic
     onOpenChange(false);
   };
 
